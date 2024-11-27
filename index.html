@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <main class="container">
+        <nav class="menu">
+            <div class="menu-time">
+                <h2 class="first">Time left</h2>
+                <h2 class="second" id="time-left">0</h2>
+            </div>
+            <div class="menu-score">
+                <h2 class="first">Your score</h2>
+                <h2 class="second" id="score">0</h2>
+            </div>
+            <div class="menu-lives">
+                <img src="./src/images/player.png" alt="">
+                <h2>x3</h2>
+            </div>
+        </nav>
+        <section class="panel">
+
+            <div class="panel-row">
+                <div class="square enemy" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+        
+
+            <div class="panel-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+
+            <div class="panel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script defer src="src/js/engine.js"></script>
+</body>
+</html>
